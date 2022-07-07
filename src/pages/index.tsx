@@ -9,11 +9,6 @@ import { Container } from '@chakra-ui/react';
 const Home: NextPage = () => {
   return (
     <>
-      <Head>
-        <title>Prathim</title>
-        <meta name='description' content='Prathims Portfolio Website' />
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
       <Container
         display='flex'
         flexDirection={'column'}
