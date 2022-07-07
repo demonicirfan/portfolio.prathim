@@ -19,20 +19,16 @@ import TweetCard2 from './TweetCard2';
 
 const res = [
   {
-    id: '1535237118280142848',
-    text: 'Are you not able to find ideas for your personal project? Here is a list of some amazing open-source side projects.\n\n↓',
+    id: '1544917404337438722',
+    text: '',
   },
   {
-    id: '1535128515854536704',
-    text: 'Start your freelancing journey on @fiverr 👇🏻 https://t.co/emy7O5B7vb',
+    id: '1543633404226179074',
+    text: '',
   },
   {
-    id: '1535105935730913281',
-    text: 'Personal branding is the strategy of creating your skills more valuable.',
-  },
-  {
-    id: '1542552655540604928',
-    text: 'Show your current physique ✨ https://t.co/lOGx9jYGFY',
+    id: '1543197360859365376',
+    text: '',
   },
 ];
 
@@ -59,7 +55,7 @@ const Tweets = () => {
         headers,
       })
       .then((res) => {
-        console.log(res);
+       // console.log(res);
       })
       .catch((err) => console.log(err));
 

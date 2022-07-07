@@ -24,12 +24,7 @@ const Navbar = () => {
   console.log(router.pathname);
   return (
     <header>
-      <Container
-        maxW='full'
-        // transition='all 0.5s'
-        // bg={isOpen ? 'black' : 'white'}
-        // color={isOpen ? 'white' : 'black'}
-      >
+      <Container maxW='full'>
         <Flex
           maxW='8xl'
           mx='auto'
@@ -54,6 +49,11 @@ const Navbar = () => {
               <Link href='/blog'>
                 <Box
                   as='button'
+                  _hover={{
+                    paddingBottom: '0.2rem',
+                    borderBottom: '1px solid black',
+                  }}
+                  transition='all 0.2s'
                   fontWeight={router.pathname === '/blog' ? '600' : '400'}
                 >
                   Blog
@@ -62,6 +62,11 @@ const Navbar = () => {
               <Link href='/service'>
                 <Box
                   as='button'
+                  _hover={{
+                    paddingBottom: '0.2rem',
+                    borderBottom: '1px solid black',
+                  }}
+                  transition='all 0.2s'
                   fontWeight={router.pathname === '/service' ? '600' : '400'}
                 >
                   Services
@@ -70,6 +75,11 @@ const Navbar = () => {
               <Link href='/course'>
                 <Box
                   as='button'
+                  _hover={{
+                    paddingBottom: '0.2rem',
+                    borderBottom: '1px solid black',
+                  }}
+                  transition='all 0.2s'
                   fontWeight={router.pathname === '/course' ? '600' : '400'}
                 >
                   Course
@@ -78,6 +88,11 @@ const Navbar = () => {
               <Link href='/contact'>
                 <Box
                   as='button'
+                  _hover={{
+                    paddingBottom: '0.2rem',
+                    borderBottom: '1px solid black',
+                  }}
+                  transition='all 0.2s'
                   fontWeight={router.pathname === '/contact' ? '600' : '400'}
                 >
                   Contact

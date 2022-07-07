@@ -40,6 +40,9 @@ const Quicklinks = () => {
             >
               <Box
                 as='a'
+                _hover={{
+                  textDecoration: 'underline',
+                }}
                 href='https://youtube.com'
                 transition='all 0.2s'
                 fontSize={{ base: 'md', md: 'xl' }}
@@ -56,7 +59,18 @@ const Quicklinks = () => {
               fontSize={{ base: 'md', md: 'xl' }}
               fontWeight='500'
             >
-              Twitter
+              <Box
+                _hover={{
+                  textDecoration: 'underline',
+                }}
+                as='a'
+                href={'https://twitter.com/BhosalePratim'}
+                transition='all 0.2s'
+                fontSize={{ base: 'md', md: 'xl' }}
+                fontWeight='500'
+              >
+                Twitter
+              </Box>
             </Center>
           </Center>
         </HStack>
@@ -68,7 +82,18 @@ const Quicklinks = () => {
               fontSize={{ base: 'md', md: 'xl' }}
               fontWeight='500'
             >
-              LinkedIn
+              <Box
+                _hover={{
+                  textDecoration: 'underline',
+                }}
+                as='a'
+                href={'https://www.linkedin.com/in/pratim-bhosale'}
+                transition='all 0.2s'
+                fontSize={{ base: 'md', md: 'xl' }}
+                fontWeight='500'
+              >
+                LinkedIn
+              </Box>
             </Center>
           </Center>
           <Center border={'2px solid black'}>
@@ -78,7 +103,18 @@ const Quicklinks = () => {
               fontSize={{ base: 'md', md: 'xl' }}
               fontWeight='500'
             >
-              Polywork
+              <Box
+                _hover={{
+                  textDecoration: 'underline',
+                }}
+                as='a'
+                href={'https://www.polywork.com/pratimbhosale'}
+                transition='all 0.2s'
+                fontSize={{ base: 'md', md: 'xl' }}
+                fontWeight='500'
+              >
+                Polywork
+              </Box>
             </Center>
           </Center>
         </HStack>

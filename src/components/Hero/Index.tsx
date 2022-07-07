@@ -8,6 +8,7 @@ import {
   Text,
   VStack,
 } from '@chakra-ui/react';
+import Link from 'next/link';
 import CustomButton from '../../HOC/Button';
 
 const Hero = () => {
@@ -59,8 +60,22 @@ const Hero = () => {
             gap={{ base: '1rem', md: '2rem' }}
             alignItems={'center'}
           >
-            <CustomButton variant='dark'>Read Article</CustomButton>
-            <CustomButton variant='light'>Sponsor Me</CustomButton>
+            <Button
+              variant='unstyled'
+              as='a'
+              href='https://pratimblogs.hashnode.dev'
+              target={'_blank'}
+            >
+              <CustomButton variant='dark'>Read Article</CustomButton>
+            </Button>
+            <Button
+              variant='unstyled'
+              as='a'
+              href='https://pratimblogs.hashnode.dev'
+              target={'_blank'}
+            >
+              <CustomButton variant='light'>Sponsor Me</CustomButton>
+            </Button>
           </Stack>
         </VStack>
         <Center bg='black' w='fit-content' h={'fit-content'}>
