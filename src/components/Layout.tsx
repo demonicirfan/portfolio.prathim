@@ -26,7 +26,7 @@ const Layout: React.FC<Props> = ({ children }) => {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta property='og:title' content='Pratim Bhosale' key='ogtitle' />
 
-        <meta property='og:url' content='https://honey-one.vercel.app/' />
+        <meta property='og:url' content='https://pratimbhosale.com' />
         <meta property='og:title' content='Pratim Bhosale' />
         <meta
           property='og:description'
@@ -38,8 +38,8 @@ const Layout: React.FC<Props> = ({ children }) => {
         />
 
         <meta name='twitter:card' content='summary_large_image' />
-        <meta property='twitter:domain' content='honey-one.vercel.app' />
-        <meta property='twitter:url' content='https://honey-one.vercel.app/' />
+        <meta property='twitter:domain' content='pratimbhosale.com' />
+        <meta property='twitter:url' content='https://twitter.com/BhosalePratim' />
         <meta name='twitter:title' content='Pratim Bhosale' />
         <meta
           name='twitter:description'
