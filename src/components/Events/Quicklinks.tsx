@@ -41,7 +41,6 @@ const Quicklinks = () => {
               <Box
                 as='a'
                 href='https://youtube.com'
-                _
                 transition='all 0.2s'
                 fontSize={{ base: 'md', md: 'xl' }}
                 fontWeight='500'
