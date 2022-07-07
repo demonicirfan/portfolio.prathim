@@ -15,6 +15,7 @@ import React, { useState } from 'react';
 import { TwitterTweetEmbed } from 'react-twitter-embed';
 
 interface IProps {
+  key: number;
   text: string;
   id: string;
 }
@@ -48,7 +49,7 @@ const TweetCard = ({ text, id }: IProps) => {
         p='1rem'
         border={'2px solid black'}
       >
-        <HStack>
+        {/* <HStack>
           <Avatar size='lg'></Avatar>
           <VStack
             align={'start'}
@@ -77,8 +78,8 @@ const TweetCard = ({ text, id }: IProps) => {
                 <span>{a}</span>
               )
           )}
-        </Text>
-        {/* <TwitterTweetEmbed
+        </Text> */}
+        <TwitterTweetEmbed
           placeholder={
             <Center p='1rem' maxW={'fit-content'} h={'fit-content'}>
               <Stack w={'30rem'} flexDirection={'column'} gap='1rem'>
@@ -130,7 +131,7 @@ const TweetCard = ({ text, id }: IProps) => {
             width: 100,
           }}
           tweetId={id}
-        /> */}
+        />
       </VStack>
     </Center>
   );

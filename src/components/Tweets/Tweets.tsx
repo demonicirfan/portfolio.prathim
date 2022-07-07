@@ -14,7 +14,7 @@ import React, { useEffect, useState } from 'react';
 import { HiOutlineArrowRight } from 'react-icons/hi';
 import TweetCard from './TweetCard';
 
-import { TwitterTweetEmbed } from 'react-twitter-embed';
+//import { TwitterTweetEmbed } from 'react-twitter-embed';
 import TweetCard2 from './TweetCard2';
 
 const res = [
@@ -93,8 +93,8 @@ const Tweets = () => {
         w='80vw'
         overflow='hidden'
       >
-        {res.map((tweet) => (
-          <TweetCard text={tweet.text} id={tweet.id} />
+        {res.map((tweet, key) => (
+          <TweetCard key={key} text={tweet.text} id={tweet.id} />
         ))}
       </Flex>
       {/*<Flex

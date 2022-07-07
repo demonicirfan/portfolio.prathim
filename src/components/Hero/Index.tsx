@@ -4,8 +4,6 @@ import {
   Center,
   Container,
   Heading,
-  HStack,
-  Image,
   Stack,
   Text,
   VStack,

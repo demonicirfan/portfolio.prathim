@@ -30,6 +30,7 @@ const theme = extendTheme({
         background: '#ffffff',
         color: 'black',
       },
+      '*::selection': { backgroundColor: '#DEACF5' },
     },
   },
 });

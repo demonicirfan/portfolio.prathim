@@ -92,7 +92,7 @@ const Blog = () => {
       >
         {blogData.length > 0 ? (
           blogData?.map((card, id) => (
-            <BlogCard dir={id === 2 ? true : false} card={card} />
+            <BlogCard key={id} dir={id === 2 ? true : false} card={card} />
           ))
         ) : (
           <>

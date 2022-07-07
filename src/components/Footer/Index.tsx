@@ -145,7 +145,7 @@ const Footer = () => {
           <Stack gap='1.5rem' align={'flex-start'}>
             <VStack alignItems='start' gap='0.5re'>
               <Heading fontSize='2xl' fontWeight={'500'}>
-                Pratim's Newsletter
+                Pratim`s Newsletter
               </Heading>
               <Text
                 fontSize='md'
